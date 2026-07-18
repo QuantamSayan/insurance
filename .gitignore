@@ -1,0 +1,9 @@
+# Ignore data and model outputs
+input_files/insurance.csv
+output_files/
+
+# Ignore PyCharm's internal configuration folder
+.idea/
+
+# Ignore Jupyter runtime files
+.ipynb_checkpoints/
