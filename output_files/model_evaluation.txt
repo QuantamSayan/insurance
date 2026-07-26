@@ -1,0 +1,17 @@
+Linear Model:
+
+rmse_training = 5027.7457020444435
+10-folds cross validation rmse on training set:
+count      10.000000
+mean     5054.064360
+std       554.350719
+min      3874.950147
+25%      4916.079897
+50%      5144.461468
+75%      5325.552332
+max      5957.641458
+
+rmse_testing = 5159.8934596198105
+mae_testing = 3109.3370547766826
+mae_testing/median_charges = 32.75%
+r2_testing = 0.8388877802188905

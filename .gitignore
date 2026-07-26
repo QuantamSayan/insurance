@@ -1,9 +1,11 @@
 # Ignore data and model outputs
 input_files/insurance.csv
-output_files/
+output_files/graphs
+output_files/linear_model.pkl
 
 # Ignore PyCharm's internal configuration folder
 .idea/
+venv
 
 # Ignore Jupyter runtime files
 .ipynb_checkpoints/
