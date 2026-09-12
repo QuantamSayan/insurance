@@ -59,6 +59,18 @@ This project builds a regression model to estimate `Charges` (medical insurance 
 - Training RMSE and 10-fold cross-validated RMSE computed on the training set
 - Final model evaluated once on the held-out test set
 
+## Features that the Model is trained upon
+- "Age" 
+- "Children"
+- "Sex" : "male", "female"
+- "Smoker" : "yes", "no"
+- "Region" : "southwest", "southeast", "northeast", "northwest"
+- "BMI"
+
+## Input and Output datatype
+- input datatype : pandas dataframe
+- output datatype : numpy ndarray
+
 ## Results
 
 ### Test Set Performance

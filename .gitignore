@@ -1,11 +1,57 @@
-# Ignore data and model outputs
-input_files/insurance.csv
-output_files/graphs
-output_files/linear_model.pkl
+# Python / Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore PyCharm's internal configuration folder
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor Settings
 .idea/
-venv
+.vscode/
+*.swp
+*.swo
 
-# Ignore Jupyter runtime files
+# FastAPI & Environment Variables
+.env
+.env.*
+!.env.example
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.build_tests/
+
+# Operating System Metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
