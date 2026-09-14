@@ -1,0 +1,42 @@
+[project]
+name = "insurance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sayan Sutradhar", email = "sayan.techflow@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "cloudpickle==3.1.2",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fastapi>=0.141.1",
+    "fonttools==4.65.0",
+    "joblib==1.6.0",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "narwhals==2.26.0",
+    "numpy==2.5.3",
+    "packaging==26.3",
+    "pandas==3.0.5",
+    "pillow==12.3.0",
+    "pydantic>=2.13.5",
+    "pyparsing==3.3.2",
+    "python-dateutil==2.9.0.post0",
+    "scikit-learn==1.9.1",
+    "scipy==1.18.1",
+    "seaborn==0.13.2",
+    "six==1.17.0",
+    "threadpoolctl==3.6.0",
+    "tzdata==2026.4",
+    "uv==0.12.13",
+    "uvicorn>=0.53.0",
+]
+
+[project.scripts]
+insurance = "insurance:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

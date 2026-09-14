@@ -1,13 +1,13 @@
+.venv/
+ml/data
+ml/reports/insurance_predictions.csv
+models
+src
+
 # Python / Byte-compiled files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Virtual Environment
-.venv/
-venv/
-ENV/
-env/
 
 # IDE & Editor Settings
 .idea/

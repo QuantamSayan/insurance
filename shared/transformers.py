@@ -1,15 +1,3 @@
-"""
-Custom FunctionTransformer helpers for the insurance model pipeline.
-
-IMPORTANT: This file must be kept IDENTICAL in both:
-  - ml/transformers.py        (used when training/pickling the model)
-  - api/models/transformers.py (used when loading the model in the API)
-
-Any change here must be copied to the other location and the model
-must be re-trained/re-pickled for the change to take effect.
-"""
-
-
 def smokers_fun(x):
     """
     Zeroes out the numeric feature for non-smokers, keeping it only

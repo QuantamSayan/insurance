@@ -3,7 +3,7 @@
 
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from models.predict import model, MODEL_VERSION
+from model_service.predict import model, MODEL_VERSION
 
 app = FastAPI()
 @app.get("/")
@@ -17,7 +17,7 @@ def health_check():
         "model_loaded" : model is not None
     }
 
-from models.predict import predict_charges
+from model_service.predict import predict_charges
 from schema.io import UserInput, InsuranceOutput
 
 @app.post("/predict", response_model=InsuranceOutput)
